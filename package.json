@@ -1,0 +1,11 @@
+{
+  "name": "screen-ai-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small server-side proxy for Screen AI; keeps the OpenAI API key off the Android device.",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "check": "node --check server.js"
+  },
+  "engines": { "node": ">=20" }
+}
